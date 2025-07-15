@@ -1,5 +1,5 @@
-package main
+package calculator
 
 func Add(a, b int) int {
-	return a + b
+    return a + b
 }

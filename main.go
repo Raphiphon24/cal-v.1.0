@@ -1,10 +1,15 @@
-package main
+package calculator
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func Add(a, b int) int {
+	return a + b
+}
 
 func main() {
-    a := 10
-    b := 5
-    fmt.Println(Add(a, b))
-    fmt.Println(Multiply(a, b))
+	a := 10
+	b := 20
+	fmt.Println(Add(a, b))
 }
